@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; */
+* {
+    padding: 0px;
+    margin: 0px;
+    /*border: 1px solid red;*/
+}
+.wrapper {
+    width: 1000px;
+    height: 1104px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #131313;
+}
+.wrapper h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px; 
+}
+.wrapper p {
+    font-family: 'Roboto Slab', serif;
+}
+/* NOTE: Header */
+.header {
+    width: 1000px;
+    height: 100px;
+    background-color: #1a1a1a;
+}
+.logo {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.call_us {
+    display: inline-block;
+    color: #fff;
+    float: right;
+    font-size: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.menu {
+    background-color: #404040;
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.menu ul li {
+    margin-left: 15px;
+    padding: 3px;
+}
+#home {
+    color: #fff;
+}
+.menu a:link {
+    color: #8C8C8C;
+    text-decoration: none;
+}
+.menu a:visited {
+    color: #8C8C8C;
+    text-decoration: none;
+}
+/* NOTE: Content */
+.slider {
+    width: 977px;
+    height: 362px;
+    background-color: #3b3b3b;
+    margin-left: 11px;
+}
+.sub_content {
+    width: 1000px;
+    height: 150px;
+    background-color: #1a1a1a;
+    display: flex;
+}
+.sub_content h2 {
+    color: #f1813a;
+    font-family: 'Roboto Slab', serif;
+}
+.sub_content p {
+    color: #c1c3c0;
+    font-family: 'Roboto', sans-serif;
+}
+.content_box {
+    text-align: left;
+    width: 250px;
+    height: 200px;
+    display: flex;
+}
+.content_img {
+    width: 50px;
+    height: 50px;
+    margin-top: 35px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+/* NOTE: Text Boxes content */
+.text {
+    width: 400px;
+    height: 100px;
+    margin-top: 35px;
+    margin-left: 10px;
+    position: relative;
+    right: 5px;
+}
+.text h2 {
+    font-size: 20px;
+}
+.text p {
+    font-size: 15px;
+}
+/* NOTE: Buy now */
+.buy_now {
+    width: 1000px;
+    height: 150px;
+    background-color: #040404;
+    display: flex;
+}
+.buy_now_text {
+    width: 670px;
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 15px;
+    position: relative;
+    left: 30px;
+}
+.buy_now_text h2 {
+    color: #fefefe;
+    font-family: 'Roboto', sans-serif;
+}
+.buy_now_text p {
+    color: #93a7a5;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.button {
+    background:    #f09758;
+    border-radius: 5px;
+    padding:       8px 20px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal 700 24px/1 "Calibri", sans-serif;
+    text-align:    center;
+    text-shadow:   1px 1px #000000;
+    float: right;
+    height: 30px;
+    position: relative;
+    top: 45px;
+    left: 120px;
+}
+.button a:link {
+    color: #fff;
+    text-decoration: none;
+}
+.button a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+/* NOTE: Preloude */
+#top_portfolio{
+    display: block;
+}
+#top_portfolio h2 {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    display: inline_block;
+    float: left;
+    font-size: 20px;
+    padding: 15px;
+}
+#top_portfolio a {
+    float: right;
+    display: inline-block;
+    padding: 16px;
+}
+#top_portfolio a:link {
+    color: #f1813a;
+    text-decoration: none;
+}
+#top_portfolio a:visited {
+    color: #f1813a;
+    text-decoration: none;
+}
+/* NOTE: portfolio */
+.portfolio {
+    width: 1000px;
+    height: 300px;
+    display: flex;
+}
+.footer_boxes {
+    text-align: left;
+    width: 250px;
+    height: 200px;
+    margin-left: 10px;
+}
+.footer_boxes h3 {
+    color: #f1813a;
+    font-family: 'Roboto Slab', serif;
+}
+.footer_boxes p {
+    color: #c1c3c0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+/* NOTE: ?? */
+#btt {
+    float: right;
+    padding: 10px;
+    position: relative;
+    bottom: 28px;
+}
+#btt a:link {
+    color: #6a7475;
+    text-decoration: none;
+}
+#btt a:visited {
+    color: #6a7475;
+    text-decoration: none;
+}

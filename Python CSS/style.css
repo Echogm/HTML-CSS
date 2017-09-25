@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid red;
+}
+
+.wrapper {
+    width: 970px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* NOTE: Header */
+.logo img {
+    height: 100px;
+    width: auto;
+    margin: 10px 0px 0px 10px;
+    display: inline-block;
+    float: left;
+}
+.search {
+    height: 108px;
+    width: 20   0px;
+    display: inline-block;
+    background-color: lightgrey;
+    position: relative;
+    left: 400px;
+}
+.search input {
+    position: relative;
+    display: inline-flex;
+    top: 30px;
+}
+.search p {
+    font-size: 15px;
+    font-family: sans-serif;
+    display:
+}
+.search a {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.search a:link {
+    color 
+}
+.menu ul {
+    height: 100px;
+    width: 400px;
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+.menu ul li {
+    margin-left: 10px;
+}

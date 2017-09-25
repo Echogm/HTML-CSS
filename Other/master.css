@@ -1,0 +1,35 @@
+#nav_menu {
+  list-style-type: none;
+}
+
+#nav_menu li {
+  display: inline;
+  padding: 5px;
+  margin: 4px;
+  border: 2px solid black;
+}
+
+p {
+  width: 350px; margin: 20px; padding: 20px;
+  font-size: 14px;
+  background: #eee;
+}
+
+/*.test1 {
+  display: inline-block;
+  width: 180px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  background: #eee;
+}*/
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
