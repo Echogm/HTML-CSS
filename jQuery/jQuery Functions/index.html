@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- NOTE: Change the image -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery</title>
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        <script>
+            $(document).ready(function(){
+                // alert("Im here!!!!");
+                $('#addclass').click(function(){
+                    $('p').addClass('imherenow')
+                });
+                // NOTE: Button
+                $('.slidetoggle').hide();
+                $('#slidetoggle').click(function(){
+                    $('.slidetoggle').slideToggle("slow",function() {
+                    });
+                });
+                $('#append').click(function(){
+                    $('.append p').append('BOOM!!!')
+                });
+                $('#before').click(function(){
+                    $('.befaft h2').before($('.befaft p'))
+                });
+                $('#after').click(function(){
+                    $('.befaft h2').after($('.befaft p'))
+                });
+                $('#fadeout').click(function(){
+                    $('#echo').fadeOut("slow",function () {
+                    });
+                });
+                $('#fadein').click(function(){
+                    $('#echo').fadeIn("slow",function() {
+                    });
+                });
+                $('h3').hide();
+                $('#slideup').click(function() {
+                    $('h3').hide('slow')
+                })
+                $('#slidedown').click(function(){
+                    $('h3').show("slow");
+                });
+                $("#slideup").click(function () {
+                    $(".slide img").slideUp("slow",function () {
+
+                    });
+                });
+
+                $( "#slidedown" ).click(function() {
+                    $( ".slide img" ).slideDown( "slow", function() {
+                    });
+                });
+
+                // NOTE: input and what not
+                $('#val').keyup(function () {
+                    var value = $('#val').val();
+                    $('.val p').text(value);
+                });
+                $('#link').click(function () {
+                    $('#google').attr("href","http://w3schools.com")
+                })
+
+            });
+        </script>
+    </head>
+    <body>
+        <div class="addclass">
+            <h1>jQuery</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button id="addclass" type="button" name="button">Addclass</button>
+        </div>
+        <hr>
+        <button id="slidetoggle" type="button" name="button">Slidetoggle</button>
+        <div class="slidetoggle">
+            <h2>Slidetoggle</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <hr>
+        <div class="append">
+            <h2>Append</h2>
+            <p>Click the button to append a new paragraph!</p>
+            <button id="append" type="button" name="button">Append</button>
+        </div>
+        <hr>
+        <div class="befaft">
+            <h2>Before and After</h2>
+            <p>Click to see the magic</p>
+            <button id="before" type="button" name="button">Before</button>
+            <button id="after" type="button" name="button">After</button>
+        </div>
+        <hr>
+        <div class="fadeinout">
+            <h2>Fade</h2>
+            <p>click the button</p>
+            <img id="echo" src="yoda.jpg" alt="">
+        </div>
+        <button id="fadein" type="button" name="button">fade in</button>
+        <button id="fadeout" type="button" name="button">fade out</button>
+        <hr>
+        <div class="slide">
+            <h2>SlideUp</h2>
+            <h3>Sup!!!</h3>
+            <img src="yoda.jpg" alt="">
+            <p>click the button</p>
+            <button id="slideup" type="button" name="button">Click me first</button>
+            <button id="slidedown" type="button" name="button">Click me second</button>
+        </div>
+        <hr>
+        <div class="val">
+            <h2>.Val</h2>
+            <p></p>
+            <input id="val" type="text" name="" value="">
+        </div>
+        <div class="attr">
+            <h2>.Attr</h2>
+            <a href="http://google.com" id="google">Google</a>
+            <br>
+            <button id="link" type="button" name="button">Click Here</button>
+        </div>
+    </body>
+</html>
